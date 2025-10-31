@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="description" content="Modern professional CV with contact form, dynamic elements, introduction, experience, skills." />
+  <meta name="keywords" content="CV, portfolio, developer, contact form, dynamic, skill, certificate, social, grid, ribbon" />
+  <meta name="author" content="János Kulcsár" />
+  <title>CV | János Kulcsár</title>
+  <link rel="shortcut icon" href="img/favicon.jpg" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/text.css" />
+  <link rel="stylesheet" href="css/960_24_col.css" />
+  <link rel="stylesheet" href="css/sytles.css" />
+  <link rel="stylesheet" href="css/jquery.lightbox-0.5.css" />
+  <link href="https://fonts.googleapis.com/css?family=Rubik:700&display=swap" rel="stylesheet">
+  <style>
+    #name_tittle h1 {
+      font-family: 'Rubik', 'PT Sans Narrow', Arial, sans-serif;
+      font-size: clamp(2rem, 5vw, 44px);
+      font-weight: 700;
+      color: #022E63;
+      margin-bottom: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      letter-spacing: 0.01em;
+    }
+    #hobbies-list {
+      margin-bottom: 10px;
+      padding-left: 0;
+    }
+    #hobbies-list li {
+      transition: all 0.3s;
+      cursor: pointer;
+      background: #f6f7f8;
+      margin-bottom: 4px;
+      padding: 8px 8px 8px 16px;
+      border-radius: 6px;
+      border-left: 3px solid #e0e7ef;
+      color: #235aa6;
+      font-size: 1.05em;
+      box-shadow: 0 2px 4px rgba(35,90,166,0.04);
+      list-style: none;
+    }
+    #hobbies-list li.expand {
+      background: #e5eefb;
+      color: #1b579e;
+      font-size: 1.12em;
+      border-left: 5px solid #7dd3fc;
+      font-weight: bold;
+      letter-spacing: 0.2px;
+    }
+  </style>
+  <script src="js/jquery-1.7.1.min.js"></script>
+  <script src="js/jquery.tips.js"></script>
+  <script src="js/jquery.lightbox-0.5.js"></script>
+  <script src="js/scroll-startstop.events.jquery.js"></script>
+</head>
+<body>
+<div id="header">
+  <ul class="social_panel">
+    <li><a href="https://www.linkedin.com/in/janos-kulcsar-070121284/" target="_blank" rel="noopener"><img src="img/linkedin.png" width="24" height="24" alt="LinkedIn" /></a></li>
+    <li><a href="https://github.com/janoskulcsar" target="_blank" rel="noopener"><img src="img/github.png" width="24" height="24" alt="GitHub" /></a></li>
+  </ul>
+</div>
+<div class="container_24">
+  <div class="grid_1"><div class="holder"></div></div>
+  <div class="grid_9">
+    <div id="name_tittle">
+      <h1>János Kulcsár</h1>
+      <ul>
+        <li>Student</li>
+      </ul>
+    </div>
+  </div>
+  <div class="grid_3"><div class="holder"></div></div>
+  <div class="grid_1"><div class="holder"></div></div>
+  <div class="icon_list">
+    <div class="grid_7">
+      <div class="work_list">
+        <h1>AVAILABLE FOR :</h1>
+        <h3>Mobile Development</h3>
+        <h2>Profile</h2>
+        <ul>
+          <li><a target="_blank" href="https://github.com/janoskulcsar" rel="noopener">https://github.com/janoskulcsar</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="grid_1"><div class="holder"></div></div>
+  <div class="clear"></div>
+
+  <div class="grid_10">
+    <div class="ribbon2">Personal Statement</div>
+    <img class="floatLeft" src="img/profileblank.webp" alt="profile picture" />
+    <div class="item"><p>I am a student learning computer science.</p></div>
+
+    <div class="ribbon2">Summary</div>
+    <div class="item">
+      <ul>
+        <li>Mobile Development</li>
+        <li>Web Development</li>
+        <li>Flutter</li>
+      </ul>
+    </div>
+  </div>
+  <div class="grid_2"><div class="vertical_line"></div></div>
+  <div class="grid_10">
+    <div class="ribbon2">Experience</div>
+    <div id="technical_skill">
+      <div id="skill_list2">
+        <ul>
+          <li>Flutter</li>
+          <li>HTML</li>
+          <li>Java</li>
+        </ul>
+      </div>
+      <div id="skill_set">
+        <ul>
+          <li><div class="progress_container"><div class="cms tip" title="80%"></div></div></li>
+          <li><div class="progress_container"><div class="html tip" title="60%"></div></div></li>
+          <li><div class="progress_container"><div class="css tip" title="50%"></div></div></li>
+        </ul>
+      </div>
+    </div>
+    <div class="item_tittle"><h1>Summer Internship <span>Summer of 2025</span></h1><h2>Aprilred</h2></div>
+    <div class="item"><p>Mobile development in Flutter.</p></div>
+    <div class="item_tittle"><h1>Studies <span>2023 - 2026</span></h1><h2>UMFST</h2></div>
+    <div class="item"><p>Bachelor's degree in Computer Science.</p></div>
+  </div>
+  <div class="grid_1"><div class="holder"></div></div>
+  <div class="clear"></div>
+  <div class="grid_1"><div class="holder"></div></div>
+  <div class="grid_10">
+    <div class="ribbon2">Education</div>
+    <div class="item_tittle"><h1>UMFST <span>2023 - 2026</span></h1><h2>Computer Science</h2><div class="item"><p></p></div></div>
+    <div class="ribbon2">Languages</div>
+    <div class="why_me">
+      <ul>
+        <li>Hungarian</li><li>Romanian</li><li>English</li>
+      </ul>
+    </div>
+    <div class="ribbon2">Interests</div>
+    <ul id="hobbies-list">
+      <li onclick="this.classList.toggle('expand')">Working out</li>
+      <li onclick="this.classList.toggle('expand')">Cycling</li>
+      <li onclick="this.classList.toggle('expand')">Reading</li>
+      <li onclick="this.classList.toggle('expand')">Nature</li>
+    </ul>
+    <div class="ribbon2">Skills
+      <span class="chip">Flutter</span>
+      <span class="chip">HTML</span>
+      <span class="chip">Java</span>
+    </div>
+  </div>
+  <div class="grid_2"><div class="vertical_line"></div></div>
+  <div class="grid_10">
+    <div class="ribbon2">Contact Form</div>
+    <div id="contact-area">
+      <form id="contactform" onsubmit="handleForm(event)">
+        <label for="Name">Name:</label>
+        <input type="text" name="Name" id="Name" required />
+        <label for="Email">Email:</label>
+        <input type="email" name="Email" id="Email" required />
+        <label for="Message">Message:</label>
+        <textarea name="Message" rows="6" cols="30" id="Message" required></textarea>
+        <label for="captcha">Write the result (7 + 4):</label>
+        <input type="text" id="captcha" name="captcha" pattern="11" required />
+        <input type="submit" name="submit" value="Send" class="submit-button" />
+      </form>
+    </div>
+    <div class="ribbon2">Social Links</div>
+    <div class="item_tittle">
+      <h1></h1>
+      <h2>Profiles</h2>
+      [ <a target="_blank" href="https://github.com/janoskulcsar" rel="noopener">Github</a> ]
+      [ <a target="_blank" href="https://www.linkedin.com/in/janos-kulcsar-070121284/" rel="noopener">LinkedIn</a> ]
+    </div>
+  </div>
+  <div class="grid_1"><div class="holder"></div></div>
+  <div class="clear"></div>
+  <div class="grid_10"><div class="ribbon2">Why We Should Work Together</div>
+    <div class="why_me"><ul>
+      <li>Creative thinking</li>
+      <li>Teamwork</li>
+      <li>Accuracy</li>
+      <li>Deadline-driven</li>
+    </ul></div>
+  </div>
+  <div class="grid_2"><div class="vertical_line2"></div></div>
+</div>
+<script>
+  function handleForm(e) {
+    e.preventDefault();
+    alert('Thank you for your message!');
+    document.getElementById('contactform').reset();
+  }
+</script>
+<div style="display:none;" class="nav_up" id="nav_up"></div>
+<div style="display:none;" class="nav_down" id="nav_down"></div>
+</body>
+</html>

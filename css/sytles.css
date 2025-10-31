@@ -1,0 +1,290 @@
+body {
+    background-image: url(../img/darkdenim3.png);
+    background-repeat:repeat;
+    color: #333;
+    font-size: 11px;
+    height: auto;
+    padding: 20px 0;
+    background-attachment:fixed;
+}
+
+/* --- Anchor, Header, Headings, etc. --- */
+a {
+    color:#737475;
+    text-decoration: none;
+}
+a:hover { text-decoration: none; }
+a:link {color:#737475;}      
+a:visited {color:#737475;}  
+
+h1 {
+    font-family: 'PT Sans Narrow', cursive;
+    color: #000;
+    font-size: 60px;
+    text-align:left;
+    font-weight:normal;
+}
+h2 { padding-top: 0px; text-align: center;}
+p { padding: 10px 0; }
+
+/* --- Image --- */
+img.floatLeft {
+    float: left;
+    margin: 10px 20px 15px 0px;
+    background-color: #FFFFFF;
+    border: 1px solid #CFD0CB;
+    border-radius: 3px;
+    box-shadow: 0 6px 6px 0px #727274;
+    float: left;
+    height: 160px;
+    padding: 4px;
+    width: 120px;
+}
+
+/* --- Text blocks --- */
+.item p {
+    color: #737475;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+/* --- Titles --- */
+.item_tittle h1 {
+    font-size: 24px;
+    font-weight:normal;
+    font-family: 'PT Sans Narrow', cursive;
+    text-align: left;
+    color: #000000;
+    padding: 10px 0 0;
+    text-transform: uppercase;
+}
+.item_tittle h1 span {
+    background: #74767A;
+    border-radius: 3px;
+    color: #ffffff;
+    float: right;
+    font-family: 'PT Sans Narrow', cursive;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 7px 0 0;
+    padding: 0 5px;
+    margin-right: 0;
+}
+.item_tittle h2 {
+    font-size: 18px;
+    font-weight:normal;
+    font-family: 'PT Sans Narrow', cursive;
+    text-align: left;
+    color:#000;
+}
+.item_tittle h3{
+    font-size: 14px;
+    font-weight:normal;
+    font-family: 'PT Sans Narrow', cursive;
+    text-align: right;
+    color:#000;
+}
+
+.container_24 { background-color: #fff; background-image: url(../img/groovepaper.png); }
+
+.holder { overflow: hidden; padding: 10px 0; }
+
+/* --- Header --- */
+#header{
+    background-image: url(../img/resume.png);
+    width:990px;
+    height:87px;
+    margin:auto;
+}
+.social_panel { float:right; padding: 34px 60px 0 0;}
+.social_panel li { float: left; margin-left: 10px; list-style: none;}
+.social_panel ul { list-style: none; }
+.social_panel li.last{ margin:0; }
+
+/* --- Name/Title Ribbon --- */
+#name_tittle h1{
+    font-family: 'PT Sans Narrow', cursive;
+    color: #022E63;
+    font-size: 85px;
+    text-align:left;
+    font-weight:bold;
+}
+#name_tittle ul{
+    color: #74767A;
+    font-family: 'PT Sans',sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.0em;
+    list-style-type: none;
+    margin: -24px 0 0 -31px;
+    text-align: left;
+}
+#name_tittle li{ padding: 0px; }
+
+/* --- Work List --- */
+.work_list{ float: left; margin: 0 0 0 -70px; text-align: right;}
+.work_list h1{ font-family: 'PT Sans Narrow', cursive; font-size: 24px; color:#74767a; margin: 0px 0 0 30px;}
+.work_list h2{ font-family: 'PT Sans Narrow', cursive; font-size: 18px; color: #000000; margin: 0 0 0 30px; text-align: left;}
+.work_list h3{ font-family: 'PT Sans Narrow', cursive; font-size: 18px; color:#1B579E; margin: 0 0 0 30px; text-align: left; border-bottom: 2px solid #1B579E; width: 390px;}
+.work_list ul{ font-family: 'PT Sans Narrow', sans-serif; line-height:  1.5em; color: #74767a; font-size: 18px; text-align:left; list-style-type: none;}
+.work_list li{ border-bottom: 1px solid #d7d7d7; width: 390px; }
+
+.vertical_line{ height: 600px; background-image: url("../img/vertical_line.png"); background-repeat: repeat-y; margin: 43px 0 0;}
+.vertical_line2{ height: 270px; background-image: url("../img/vertical_line.png"); background-repeat: repeat-y;}
+.horisontal_line{ height:40px; width: 870px; margin: auto; background-image: url("../img/horisontal_line.png"); background-repeat: repeat-x; }
+
+/* --- Ribbons --- */   
+.ribbon2{
+    color: #1b579e;
+    font-size: 30px;
+    width: 390px;
+    font-family: 'PT Sans Narrow', cursive;
+    font-weight:bold;
+    border-bottom: 3px solid #bebebe;
+    border-style:dotted;
+}
+.ribbon_portfolio{
+    border-bottom: 3px dotted #BEBEBE;
+    color: #1B579E;
+    font-family: 'PT Sans Narrow',cursive;
+    font-size: 30px;
+    font-weight: bold;
+    width: 865px;
+}
+
+/* --- Avatar --- */   
+#avatar{
+    border: 1px solid #CFD0CB;
+    padding: 4px;
+    float: left;
+    height: 160px;
+    width: 150px;
+    background-color:#fff;
+    border-radius: 3px;
+    box-shadow: 0 6px 6px -5px #727274;
+}
+
+/* --- Skills/Progressbars --- */
+#skill_list2{ float: left; margin: -5px 0 0 -30px; }
+#skill_list2 ul{ list-style-type: none; text-align:left; font-family: 'PT Sans Narrow', sans-serif; font-size: 18px; line-height: 1.5em; font-weight: bold; }
+#skill_set { margin: 0; }
+#skill_set ul{ list-style-type: none;}
+#technical_skill{ height: 240px; margin: 15px 0 0;}
+.progress_container{ padding:1px; height:15px; overflow:hidden; background-color:#ccc; margin: 0 0 10px 90px; width: 270px;}
+.cms, .html, .css { height:22px; width:0px; background-color:#1b579e;}
+/* ... további progress bar színek ... */
+
+/* --- Gallery --- */
+#gallery { padding: 25px 12px; width: 930px;}
+#gallery ul { list-style: none; }
+#gallery ul li { display: inline; }
+#gallery ul img { border: 1px solid #CFD0CB; background-color:#fff; border-radius: 5px; box-shadow: 0 6px 6px -5px #727274; }
+#gallery ul a:hover img { border: 1px solid #CFD0CB; }
+#gallery ul a:hover { color: #fff; }
+
+/* === CONTACT FORM, MODERN LIGHT ===*/
+#contact-area { width: 429px; margin: 15px 0 0; font-family: 'PT Sans Narrow', sans-serif; color: #74767a; font-size: 12px; font-weight:bold; }
+
+/* Modern világos, letisztult form stílus! */
+#contact-area input,
+#contact-area textarea {
+  display: block;
+  width: 94%;
+  margin-bottom: 10px;
+  background: #f8f8fa;
+  color: #222;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1.08em;
+  padding: 10px 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.04);
+  transition: border 0.2s, box-shadow 0.2s;
+}
+#contact-area input:focus,
+#contact-area textarea:focus {
+  border: 1.5px solid #1b579e;
+  box-shadow: 0 2px 10px rgba(27,87,158,0.10);
+  outline: none;
+}
+#contact-area input.submit-button,
+.submit-button {
+  width: 110px;
+  float: right;
+  margin: 0 36px 0 0;
+  background-color: #235aa6;
+  color: #fff;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 7px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+  transition: background 0.2s;
+  cursor: pointer;
+}
+#contact-area input.submit-button:hover,
+.submit-button:hover {
+  background: #153e73;
+}
+label {
+  float: left;
+  font-size: 1.06em;
+  padding-top: 0;
+  text-align: left;
+  width: auto;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: #235aa6;
+  margin-bottom: 8px;
+}
+
+/* === Why Me === */
+.why_me ul{
+    color: #737475;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.5em;
+    margin: 15px 0 0 -15px;
+    text-align: left;
+    width: 372px;
+}
+
+/* dinamikus resz */
+#hobbies-list {
+  margin-bottom: 10px;
+  padding-left: 0;
+}
+#hobbies-list li {
+  transition: all 0.3s;
+  cursor: pointer;
+  background: #f6f7f8;
+  margin-bottom: 4px;
+  padding: 8px 8px 8px 16px;
+  border-radius: 6px;
+  border-left: 3px solid #e0e7ef;
+  color: #235aa6;
+  font-size: 1.05em;
+  box-shadow: 0 2px 4px rgba(35,90,166,0.04);
+  list-style: none;
+}
+#hobbies-list li.expand {
+  background: #e5eefb;
+  color: #1b579e;
+  font-size: 1.12em;
+  border-left: 5px solid #7dd3fc;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+}
+
+
+.chip {
+  display: inline-block;
+  padding: 6px 14px;
+  margin: 4px 4px;
+  background: #333;
+  color: #fff;
+  border-radius: 16px;
+  font-size: 0.9em;
+}
