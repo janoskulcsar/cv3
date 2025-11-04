@@ -288,3 +288,37 @@ label {
   border-radius: 16px;
   font-size: 0.9em;
 }
+
+img.floatLeft {
+    float: left;
+    margin: 10px 20px 15px 0px;
+    background-color: #FFF;
+    border: 1px solid #CFD0CB;
+    border-radius: 3px;
+    box-shadow: 0 6px 6px 0px #727274;
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+}
+
+.chip-list { margin: 0 0 12px 0;}
+.chip {
+  display: inline-block;
+  padding: 8px 18px;
+  margin: 6px 7px 6px 0;
+  background: #235aa6;
+  color: #fff;
+  border-radius: 18px;
+  font-size: 1em;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  box-shadow: 0 2px 7px rgba(35,90,166,0.06);
+  cursor: default;
+}
+.why_me ul{
+  margin: 16px 0 0 7px;
+  width: auto;
+  padding-left: 17px;
+}
+.progress_container { /* marad ami volt */ }
+.cms, .html, .css { transition: width 2s cubic-bezier(.24,1.25,.95,.94); }

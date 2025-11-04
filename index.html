@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="description" content="Modern professional CV with contact form, dynamic elements, introduction, experience, skills." />
-  <meta name="keywords" content="CV, portfolio, developer, contact form, dynamic, skill, certificate, social, grid, ribbon" />
+  <meta name="keywords" content="CV, portfolio, developer, contact form, dynamic, skill, social, grid, ribbon" />
   <meta name="author" content="János Kulcsár" />
   <title>CV | János Kulcsár</title>
   <link rel="shortcut icon" href="img/favicon.jpg" />
@@ -13,58 +13,15 @@
   <link rel="stylesheet" href="css/sytles.css" />
   <link rel="stylesheet" href="css/jquery.lightbox-0.5.css" />
   <link href="https://fonts.googleapis.com/css?family=Rubik:700&display=swap" rel="stylesheet">
-  <style>
-    #name_tittle h1 {
-      font-family: 'Rubik', 'PT Sans Narrow', Arial, sans-serif;
-      font-size: clamp(2rem, 5vw, 44px);
-      font-weight: 700;
-      color: #022E63;
-      margin-bottom: 0;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      letter-spacing: 0.01em;
-    }
-    #hobbies-list {
-      margin-bottom: 10px;
-      padding-left: 0;
-    }
-    #hobbies-list li {
-      transition: all 0.3s;
-      cursor: pointer;
-      background: #f6f7f8;
-      margin-bottom: 4px;
-      padding: 8px 8px 8px 16px;
-      border-radius: 6px;
-      border-left: 3px solid #e0e7ef;
-      color: #235aa6;
-      font-size: 1.05em;
-      box-shadow: 0 2px 4px rgba(35,90,166,0.04);
-      list-style: none;
-    }
-    #hobbies-list li.expand {
-      background: #e5eefb;
-      color: #1b579e;
-      font-size: 1.12em;
-      border-left: 5px solid #7dd3fc;
-      font-weight: bold;
-      letter-spacing: 0.2px;
-    }
-  </style>
-  <script src="js/jquery-1.7.1.min.js"></script>
-  <script src="js/jquery.tips.js"></script>
-  <script src="js/jquery.lightbox-0.5.js"></script>
-  <script src="js/scroll-startstop.events.jquery.js"></script>
 </head>
 <body>
 <div id="header">
   <ul class="social_panel">
     <li><a href="https://www.linkedin.com/in/janos-kulcsar-070121284/" target="_blank" rel="noopener"><img src="img/linkedin.png" width="24" height="24" alt="LinkedIn" /></a></li>
-    <li><a href="https://github.com/janoskulcsar" target="_blank" rel="noopener"><img src="img/github.png" width="24" height="24" alt="GitHub" /></a></li>
+    <li><a href="https://github.com/janoskulcsar" target="_blank" rel="noopener"><img src="img/github.png" width="24" height="24" alt="Github" /></a></li>
   </ul>
 </div>
 <div class="container_24">
-  <div class="grid_1"><div class="holder"></div></div>
   <div class="grid_9">
     <div id="name_tittle">
       <h1>János Kulcsár</h1>
@@ -73,8 +30,6 @@
       </ul>
     </div>
   </div>
-  <div class="grid_3"><div class="holder"></div></div>
-  <div class="grid_1"><div class="holder"></div></div>
   <div class="icon_list">
     <div class="grid_7">
       <div class="work_list">
@@ -87,14 +42,12 @@
       </div>
     </div>
   </div>
-  <div class="grid_1"><div class="holder"></div></div>
   <div class="clear"></div>
 
   <div class="grid_10">
     <div class="ribbon2">Personal Statement</div>
     <img class="floatLeft" src="img/profileblank.webp" alt="profile picture" />
     <div class="item"><p>I am a student learning computer science.</p></div>
-
     <div class="ribbon2">Summary</div>
     <div class="item">
       <ul>
@@ -123,17 +76,31 @@
         </ul>
       </div>
     </div>
+    <div class="item_tittle">
+      <h1>
+        <a href="https://www.umfst.ro/en/" target="_blank" rel="noopener">
+          UMFST – University of Medicine, Pharmacy, Science and Technology of Târgu Mureș
+        </a>
+        <span>2023 - 2026</span>
+      </h1>
+      <h2>Computer Science</h2>
+      <div class="item"><p>Bachelor's degree in Computer Science.</p></div>
+    </div>
     <div class="item_tittle"><h1>Summer Internship <span>Summer of 2025</span></h1><h2>Aprilred</h2></div>
     <div class="item"><p>Mobile development in Flutter.</p></div>
-    <div class="item_tittle"><h1>Studies <span>2023 - 2026</span></h1><h2>UMFST</h2></div>
-    <div class="item"><p>Bachelor's degree in Computer Science.</p></div>
   </div>
-  <div class="grid_1"><div class="holder"></div></div>
-  <div class="clear"></div>
-  <div class="grid_1"><div class="holder"></div></div>
   <div class="grid_10">
     <div class="ribbon2">Education</div>
-    <div class="item_tittle"><h1>UMFST <span>2023 - 2026</span></h1><h2>Computer Science</h2><div class="item"><p></p></div></div>
+    <div class="item_tittle">
+      <h1>
+        <a href="https://www.umfst.ro/en/" target="_blank" rel="noopener">
+          UMFST – University of Medicine, Pharmacy, Science and Technology of Târgu Mureș
+        </a>
+        <span>2023 - 2026</span>
+      </h1>
+      <h2>Computer Science</h2>
+      <div class="item"><p>Bachelor's degree in Computer Science.</p></div>
+    </div>
     <div class="ribbon2">Languages</div>
     <div class="why_me">
       <ul>
@@ -141,13 +108,14 @@
       </ul>
     </div>
     <div class="ribbon2">Interests</div>
-    <ul id="hobbies-list">
-      <li onclick="this.classList.toggle('expand')">Working out</li>
-      <li onclick="this.classList.toggle('expand')">Cycling</li>
-      <li onclick="this.classList.toggle('expand')">Reading</li>
-      <li onclick="this.classList.toggle('expand')">Nature</li>
-    </ul>
-    <div class="ribbon2">Skills
+    <div class="chip-list">
+      <span class="chip">Cycling</span>
+      <span class="chip">Reading</span>
+      <span class="chip">Nature</span>
+      <span class="chip">Working out</span>
+    </div>
+    <div class="ribbon2">Skills</div>
+    <div class="chip-list">
       <span class="chip">Flutter</span>
       <span class="chip">HTML</span>
       <span class="chip">Java</span>
@@ -177,8 +145,6 @@
       [ <a target="_blank" href="https://www.linkedin.com/in/janos-kulcsar-070121284/" rel="noopener">LinkedIn</a> ]
     </div>
   </div>
-  <div class="grid_1"><div class="holder"></div></div>
-  <div class="clear"></div>
   <div class="grid_10"><div class="ribbon2">Why We Should Work Together</div>
     <div class="why_me"><ul>
       <li>Creative thinking</li>
@@ -187,16 +153,24 @@
       <li>Deadline-driven</li>
     </ul></div>
   </div>
-  <div class="grid_2"><div class="vertical_line2"></div></div>
 </div>
+
+<!-- Scroll to top button -->
+<button onclick="window.scrollTo({top:0,behavior:'smooth'})"
+ style="position:fixed;bottom:22px;right:24px;z-index:999;background:#235aa6;color:#fff;padding:12px 18px;border-radius:22px;
+ border:none;box-shadow:0 2px 8px rgba(27,87,158,0.10);font-size:1.15em;cursor:pointer;">↑ Top</button>
+
 <script>
-  function handleForm(e) {
-    e.preventDefault();
-    alert('Thank you for your message!');
-    document.getElementById('contactform').reset();
-  }
+window.onload = function() {
+  document.querySelector('.cms').style.width = "220px";
+  document.querySelector('.html').style.width = "180px";
+  document.querySelector('.css').style.width = "130px";
+}
+function handleForm(e) {
+  e.preventDefault();
+  alert('Thank you for your message!');
+  document.getElementById('contactform').reset();
+}
 </script>
-<div style="display:none;" class="nav_up" id="nav_up"></div>
-<div style="display:none;" class="nav_down" id="nav_down"></div>
 </body>
 </html>
